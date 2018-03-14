@@ -3,23 +3,30 @@ html, body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 header{
-	width: 100%;
-	height: 821px;
+	min-width: 960px;
 	margin: 0 auto;
-	padding: 10px 0 0 53px;
+	padding: 10px 65px 0 53px;
 	background-color: #b19c93;
 	background: url('../img/banner-main-image.jpg') no-repeat;
 	background-size: 100%;
+	color: #fff;
 }
-
+/*---------- Main Navigation----------*/
+nav{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 130px;
+}
 .logo{
 	position: relative;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 60px;
+	max-height: 69px;
 	font-weight: bold;
 	letter-spacing: -4.2px;
 }
@@ -33,3 +40,125 @@ header{
 	bottom: 12px;
 	right: -21px;
 }
+.menu{
+	display: flex;
+	align-items:stretch;
+	margin-top: 22px;
+}
+.menu li{
+	list-style: none;
+	margin-right: 33px;
+	line-height: 37px;
+}
+.menu li:last-child{
+	margin-right: 0;
+}
+.menu li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Lato';
+	font-weight: 700;
+	letter-spacing: 0.24px;
+}
+/*---------- Main Navigation----------*/
+
+/*---------- Main Blocks----------*/
+.main_block{
+	text-align: center;
+	padding-bottom: 87px;
+}
+.main_block h1{
+	font-family: 'bernadette';
+	font-size: 111px;
+	margin-bottom: 29px;
+	letter-spacing: -1.05px;
+}
+.main_block h2{
+	font-size: 37px;
+	font-weight: 700;
+	margin-top: 0;
+	letter-spacing: 0.61px;
+}
+.main_block p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	margin-bottom: 39px;
+}
+.main_block a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #020202;
+	display: inline-block;
+	width: 146px;
+	height: 43px;
+	line-height: 43px;
+	box-shadow: 0 0 49px rgba(0, 0, 0, 0.07);
+	background-color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.32px;
+	font-size: 16px;
+	border-radius: 21px;
+}
+.dignity{
+	color: #333332;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.dignity .block{
+	position: relative;
+	width: 372px;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding-bottom: 24px;
+	border-radius: 12px;
+	margin-right: 25px;
+	box-shadow: 0 0 49px rgba(0, 0, 0, 0.07);
+}
+.dignity .block:last-child{
+	margin-right: 0;
+}
+.dignity h3{
+	font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.61px;
+	margin: 15px 0 18px;
+}
+.dignity img{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.dignity .wrap{
+	padding: 0 65px;
+}
+.dignity p{
+	color: #040404;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+}
+.dignity .block a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.32px;
+	display: inline-block;
+	width: 146px;
+	height: 43px;
+	line-height: 43px;
+	border-radius: 21px;
+	box-shadow: 0 0 49px rgba(0, 0, 0, 0.07);
+	background-image: linear-gradient(to right, #de813c 0%, #3f519a 100%);
+	position: absolute;
+	bottom: -20px;
+	left: calc(50% - 73px);
+}
+/*---------- Main Blocks----------*/
