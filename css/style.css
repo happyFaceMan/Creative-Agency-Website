@@ -9,7 +9,6 @@ html, body{
 header{
 	min-width: 960px;
 	margin: 0 auto;
-	padding: 10px 65px 0 53px;
 	background-color: #b19c93;
 	background: url('../img/banner-main-image.jpg') no-repeat;
 	background-size: 100%;
@@ -20,6 +19,7 @@ nav{
 	display: flex;
 	justify-content:space-between;
 	margin-bottom: 130px;
+	padding: 10px 65px 0 53px;
 }
 .logo{
 	position: relative;
@@ -130,6 +130,7 @@ nav{
 	margin: 15px 0 18px;
 }
 .dignity img{
+	width: 100%;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
